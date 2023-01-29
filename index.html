@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Reflex</title>
+	<link rel="stylesheet" href="styles.css" />
+	 <link rel="stylesheet" href="style.css" type="text/css" />
+     <script src="js/reflex.js"></script>
+</head>
+
+<body>
+	<h1 class="title">REFLEX </h1>
+	<p id="currentTime"></p>
+	<svg class="menu" width="310" height="130">
+		<g id="lives">
+			<rect x="10" y="10" width="170" height="50" rx="5"/>
+			<text x="40" y="40">LIVES: 0</text>
+		</g>
+		<g id="points">
+			<rect x="10" y="70" width="170" height="50" rx="5"/>
+			<text x="40" y="100">POINTS: 0</text>
+		</g>
+		<g id="timer">
+			<rect x="190" y="10" width="110" height="110" rx="5"/>
+			<text x="225" y="40">TIME</text>
+			<text id="countdown" x="227" y="90">60</text>
+		</g>
+	</svg>
+	<svg id="game-field" width="310" height="310">
+		<rect x="10" y="10" width="50" height="50" rx="5"/>
+		<rect x="70" y="10" width="50" height="50" rx="5"/>
+		<rect x="130" y="10" width="50" height="50" rx="5"/>
+		<rect x="190" y="10" width="50" height="50" rx="5"/>
+		<rect x="250" y="10" width="50" height="50" rx="5"/>
+		<rect x="10" y="70" width="50" height="50" rx="5"/>
+		<rect x="70" y="70" width="50" height="50" rx="5"/>
+		<rect x="130" y="70" width="50" height="50" rx="5"/>
+		<rect x="190" y="70" width="50" height="50" rx="5"/>
+		<rect x="250" y="70" width="50" height="50" rx="5"/>
+		<rect x="10" y="130" width="50" height="50" rx="5"/>
+		<rect x="70" y="130" width="50" height="50" rx="5"/>
+		<rect x="130" y="130" width="50" height="50" rx="5"/>
+		<rect x="190" y="130" width="50" height="50" rx="5"/>
+		<rect x="250" y="130" width="50" height="50" rx="5"/>
+		<rect x="10" y="190" width="50" height="50" rx="5"/>
+		<rect x="70" y="190" width="50" height="50" rx="5"/>
+		<rect x="130" y="190" width="50" height="50" rx="5"/>
+		<rect x="190" y="190" width="50" height="50" rx="5"/>
+		<rect x="250" y="190" width="50" height="50" rx="5"/>
+		<rect x="10" y="250" width="50" height="50" rx="5"/>
+		<rect x="70" y="250" width="50" height="50" rx="5"/>
+		<rect x="130" y="250" width="50" height="50" rx="5"/>
+		<rect x="190" y="250" width="50" height="50" rx="5"/>
+		<rect x="250" y="250" width="50" height="50" rx="5"/>
+	</svg>
+	<svg class="menu" width="310" height="70">
+		<g id="start-button">
+			<rect x="10" y="10" width="110" height="50" rx="5"/>
+			<text x="40" y="40">START</text>
+		</g>
+		<g id="reset-button">
+			<rect x="190" y="10" width="110" height="50" rx="5"/>
+			<text x="220" y="40">RESET</text>
+		</g>
+	</svg>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
